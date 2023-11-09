@@ -1,0 +1,65 @@
+body {
+    background-image: url("img/background.png");
+    background-size: cover;
+    margin: 0; /* Reset default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+.button {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center;
+}
+
+.button img {
+    width: 100; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between images */
+}
+
+#buy {
+    width: auto; /* Auto width for the first image */
+    max-width: 500px; /* Maximum width for the first image */
+}
+#slide{
+        width: auto; /* Auto width for the second image */
+        max-width: 768px; /* Maximum width for the second image */
+}
+
+#two {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center;
+}
+
+#two img {
+    width: 100; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between images */
+}
+
+#three {
+    width: auto; /* Auto width for the first image */
+    max-width: 500px; /* Maximum width for the first image */
+}
+
+#four {
+    width: auto; /* Auto width for the second image */
+    max-width: 768px; /* Maximum width for the second image */
+}
+
+/* Media queries for container width */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
