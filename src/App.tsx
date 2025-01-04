@@ -1,12 +1,11 @@
-import './App.css'
-
 function App() {
-
   return (
     <>
-      <p>cum</p>
+      <div className="mx-auto ">
+        <div className="text-center border-black border-2">cum</div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
