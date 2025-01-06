@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.homebody {
   background-image: url("assets/background.png");
   background-size: cover;
+  min-height: 100vh;
+}
+
+
+.magbody {
+  background-image: url("assets/background.png");
   min-height: 100vh;
 }

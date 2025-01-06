@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 const LandingPage = () => {
   return (
-    <>
+    <div className="homebody">
       <Link to="/magazine">
         <div className="flex flex-col gap-0 h-screen">
           <div className="mx-auto my-auto">
@@ -18,7 +18,7 @@ const LandingPage = () => {
           </div>
         </div>
       </Link>
-    </>
+    </div>
   );
 };
 
