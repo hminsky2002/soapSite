@@ -12,4 +12,6 @@
 .magbody {
   background-image: url("assets/background.png");
   min-height: 100vh;
+  z-index: 0;
+
 }
