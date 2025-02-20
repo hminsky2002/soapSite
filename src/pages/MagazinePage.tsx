@@ -20,9 +20,9 @@ const MagazinePage = () => {
           className="mx-auto"
           width={600}
           height={800}
-          showCover={true}
           mobileScrollSupport={false}
-        >
+        > 
+          <div></div>
           <img className="" loading="lazy" src="magImages/cover.png" alt="" />
           {Array.from({ length: 90 }, (_, index) => (
             <img
@@ -33,6 +33,7 @@ const MagazinePage = () => {
             />
           ))}
           <img className="" src="magImages/backcover.png" alt="" />
+          <div></div>
         </HTMLFlipBook>
       </div>
       <div className=" mx-auto lg:hidden">
